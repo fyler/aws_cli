@@ -1,5 +1,5 @@
 {application, aws_cli,
- [{description, "An OTP application"},
+ [{description, "AWS cli wrapper for Erlang"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, { aws_cli_app, []}},
@@ -11,7 +11,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, []},
+  {maintainers, ["Vlad Dem, Ilia Yakubovskiy"]},
   {licenses, []},
-  {links, []}
+  {links, [{"Github", "https://github.com/fyler/aws_cli"}]}
  ]}.
